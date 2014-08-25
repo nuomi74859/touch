@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <title></title>
+    <!--<link rel="stylesheet" href="../widget/bootstrap-3.2.0-dist/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div id="main">
+    <div class="imgo-container">
+        <div class="imgo-info">
+            <div class="info-head">
+                <img src="/images/wenzi.png">
+            <div class="info-content">
+                <!--<p>您当前还未开通VIP服务</p>-->
+                <p class="clock-title">直播倒计时：</p>
+                <!--<p>16天 12小时 25分钟</p>-->
+                <div class="clock">
+                    <span id="day_show"></span>
+                    <span id="hour_show"></span>
+                    <span id="minute_show"></span>
+                    <span id="second_show"></span>
+                </div>
+                <div class="btn-warp">
+                    <a href="#" class="imgo-btn focusBtn">
+                        <img src="/images/bt1.png">
+                    </a>
+                </div>
+                <div class="btn-warp">
+                    <a href="/hint.html" class="imgo-btn focusBtn">
+                        <img src="/images/but3.png">
+                    </a>
+                </div>
+            </div>
+            <div class="info-control">
+                <img src="/images/weniz2.png">
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="imgo-view">
+            <div class="view-title">
+                <p>相关视频</p>
+            </div>
+            <div class="view-content">
+                <div id="vc-left">
+                    <img src="/images/l.png">
+                </div>
+                <div id="vc-right">
+                    <img src="/images/r.png">
+                </div>
+
+                <div class="vc-scroll">
+                    <div class="scroll-warp">
+                        <a href="#" class="focusBtn vc-tar">
+                            <img src="/images/bg.jpg">
+                        </a>
+                        <a href="#" class="focusBtn vc-tar">
+                            <img src="/images/p1.jpg">
+                        </a>
+                        <a href="#" class="focusBtn vc-tar">
+                            <img src="/images/but1.jpg">
+                        </a>
+                        <a href="#" class="focusBtn vc-tar">
+                            <img src="/images/but2.jpg">
+                        </a>
+                        <a href="#" class="focusBtn vc-tar">
+                            <img src="/images/p1.jpg">
+                        </a>
+                        <a href="#" class="focusBtn vc-tar">
+                            <img src="/images/but2.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+</div>
+</body>
+<script src="../widget/seajs/sea.js"></script>
+<script src="../seajs-config.js"></script>
+<script>
+    seajs.use(['js/index.js']);
+</script>
+</html>

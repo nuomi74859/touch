@@ -1,0 +1,121 @@
+$width:1280px;
+$height:720px;
+#main {
+  width: $width;
+  height: $height;
+  overflow:hidden;
+  background: url("/images/bg1.jpg") no-repeat;
+//  zoom:0.6;
+  .imgo-container {
+    width:100%;
+    height: 100%;
+    padding: {
+      left:70px;
+      right:72px;
+    }
+    color:white;
+    .imgo-info {
+      text-align:left;
+//      overflow: hidden;
+      .info-head {
+        width: 270px;
+        float: right;
+        margin: {
+          top:82px;
+        }
+      }
+      .info-content {
+        margin: {
+          top:15px;
+        }
+        font-size: 18px;
+        .clock-title {
+          margin:0;
+        }
+        .btn-warp {
+          .imgo-btn {
+            img {
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+              border:5px solid rgba(0,0,0,0);
+              border-radius: 14px;
+            }
+            &.on {
+              img {
+                border-color: rgb(0, 191, 255);
+              }
+            }
+          }
+        }
+      }
+    }
+    .imgo-view {
+      margin: {
+        top:-36px;
+      }
+      .view-title {
+        margin: {
+          bottom:19px;
+        }
+        font-size:28px;
+        color:rgb(105, 105, 105);
+        p {
+          margin: 0;
+        }
+      }
+      .view-content {
+        position: relative;
+        #vc-left {
+          position: absolute;
+          left: -53px;
+          top:63px;
+        }
+        #vc-right {
+          position: absolute;
+          right: -73px;
+          top:63px;
+        }
+        .vc-scroll {
+          overflow: hidden;
+          .scroll-warp {
+            width: 3000px;
+            display: inline-block;
+            .vc-tar {
+              width: 268px;
+              height: 197px;
+              display: inline-block;
+              float: left;
+              margin: {
+                right: 22px;
+              }
+              border: 5px solid #ffffff;
+              border-radius: 14px;
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+              img {
+                width: 100%;
+                height: 100%;
+                border-radius: 14px;
+              }
+              &.on {
+                border-color: rgb(0, 191, 255);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.clock {
+  height: 25px;
+  margin:0;
+  margin: {
+    top:3px;
+    bottom: 3px;
+  }
+}

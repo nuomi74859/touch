@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <title>刮VIP卡看直播</title>
+    <link rel="stylesheet" href="../widget/bootstrap-3.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+</head>
+<body>
+<div class="imgo-mobile">
+    <!--<canvas id="canvas"></canvas>-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 text-center mobile-head">
+                <br>
+                <strong>10,000,000</strong>
+                <span>人参与刮卡</span>
+                <br>
+                <span>今天<strong>319</strong>人刮中芒果TV VIP兑换卡</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h3>刮卡赢芒果TV VIP 免费看华晨宇演唱会直播</h3>
+            </div>
+            <div class="col-xs-12 text-center" id="ajax-load">
+                <div class="row canvas-panel">
+                    <!--<div class="canvas-info">-->
+                        <!--<strong>亲，要刮干净哦！</strong>-->
+                    <!--</div>-->
+                    <canvas id="canvas"></canvas>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>活动介绍：自8月26日起芒果TV每天奉送500张VIP会员卡，
+                            您只要刮开上方卡片图层即可有机会免费观看华晨宇演唱会直播，
+                            每天三次刮卡机会，赶快扫码参与活动吧。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="load-animate">
+    <div class="load-content">
+        <!--<div class="circle"></div>-->
+        <!--<div class="circle1"></div>-->
+        <div class="ball"></div>
+        <div class="ball1"></div>
+    </div>
+</div>
+
+</body>
+<script src="../widget/seajs/sea.js"></script>
+<script src="../seajs-config.js"></script>
+<script>
+    seajs.use(['js/mobile.js']);
+</script>
+</html>
